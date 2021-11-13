@@ -1,17 +1,17 @@
 <template>
 	<div class="home">
-		<Header msg="Welcome to Your Vue.js App" />
+		<MainContainer>
+			Home page
+		</MainContainer>
 	</div>
 </template>
 
 <script>
-	// @ is an alias to /src
-	import Header from '@/components/Header.vue'
-
-	export default {
+	import MainContainer from '../components/MainContainer'
+  export default{
 		name: 'Home',
 		components: {
-			Header,
+			MainContainer,
 		},
 	}
 </script>
