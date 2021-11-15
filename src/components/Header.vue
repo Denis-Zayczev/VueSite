@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import {menuList} from '../constants/menuLink'
 	export default {
 		name: 'HelloWorld',
 		props: {
@@ -29,13 +30,7 @@
 		},
 		data() {
 		return {
-				headerMenuList: [
-					{name: "home", path: "/"},
-					{name: "About Us", path: "/about"},
-					{name: "Property", path: "/property"},
-					{name: "Our Blog", path: "/blog"},
-					{name: "Contacts", path: "/conctacts"},
-				]
+				headerMenuList:  menuList,
 			}
 		},
 	}
