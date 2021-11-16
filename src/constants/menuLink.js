@@ -5,3 +5,10 @@ export const menuList = [
   {name: "Our Blog", path: "/blog"},
   {name: "Contacts", path: "/contacts"},
 ]
+
+export const menuClient = [
+  {name: "Sign in", path: "Sign"},
+  {name: "Forum", path: "/forum"},
+  {name: "Promotions", path: "/promotions"},
+  {name: "News", path: "/news"},
+]
