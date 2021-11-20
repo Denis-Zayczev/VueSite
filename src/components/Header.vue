@@ -55,7 +55,7 @@ import {menuList} from '../constants/menuLink'
 		padding: 25px 30px;
 
 		&:hover {
-			background:$gray;
+			background:$greyLight;
 		}
 	}
 
@@ -64,7 +64,7 @@ import {menuList} from '../constants/menuLink'
 			width: 30px;
 			height: 30px;
 			text-align: center;
-			border: 1px solid $gray;
+			border: 1px solid $greyLight;
 			border-radius: 50%;
 			margin-right: 10px;
 			display: inline-block;

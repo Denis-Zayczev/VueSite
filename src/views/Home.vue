@@ -13,16 +13,25 @@
 			</div>
 		</div>
 		</div>
+		<Feauters :data="feautureData"/>
 	</div>
 </template>
 
 <script>
+import {feautureData} from '../data/data.feauters'
 	import Carusel from '../components/Carusel'
+	import Feauters from '../components/Feauters'
 
   export default{
 		name: 'Home',
 		components: {
 			Carusel,
+			Feauters,
+		},
+		data() {
+			return {
+				feautureData: feautureData,
+			}
 		},
 	}
 </script>
