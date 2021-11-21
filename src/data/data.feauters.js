@@ -25,3 +25,80 @@ export const feautureData = [
   },
   
 ]
+
+export const propertiesData = [
+  {
+    id: 1,
+    imgae: 'prop',
+    title: 'Cloudcroft Drop',
+    price: 250000,
+    subtitle: 'Illinois / Chicago',  
+    desc: {
+      sqft: '1450',
+      rooms: 2,
+      bath: 1,
+    } 
+  },
+  {
+    id: 2,
+    imgae: 'prop',
+    title: 'Cloudcroft Drop',
+    price: 250000,
+    subtitle: 'Illinois / Chicago', 
+    desc: {
+      sqft: '1450',
+      rooms: 2,
+      bath: 1,
+    } 
+  },
+  {
+    id: 3,
+    imgae: 'prop',
+    title: 'Cloudcroft Drop',
+    subtitle: 'Illinois / Chicago', 
+    price: 250000,
+    desc: {
+      sqft: '1450',
+      rooms: 2,
+      bath: 1,
+    } 
+  },
+  {
+    id: 4,
+    imgae: 'prop',
+    title: 'Cloudcroft Drop',
+    price: 250000,
+    subtitle: 'Illinois / Chicago', 
+    desc: {
+      sqft: '1450',
+      rooms: 2,
+      bath: 1,
+    } 
+  },
+  {
+    id: 5,
+    imgae: 'prop',
+    title: 'Cloudcroft Drop',
+    price: 250000,
+    subtitle: 'Illinois / Chicago', 
+    desc: {
+      sqft: '1450',
+      rooms: 2,
+      bath: 1,
+    } 
+  },
+  
+  {
+    id: 6,
+    imgae: 'prop',
+    title: 'Cloudcroft Drop',
+    price: 250000,
+    subtitle: 'Illinois / Chicago', 
+    desc: {
+      sqft: '1450 Cloudcroft Drop',
+      rooms: 2,
+      bath: 1,
+    } 
+  },
+  
+]

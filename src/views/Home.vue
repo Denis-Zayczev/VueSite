@@ -14,23 +14,27 @@
 		</div>
 		</div>
 		<Feauters :data="feautureData"/>
+		<Properties :propertiesData="propertiesData"/>
 	</div>
 </template>
 
 <script>
-import {feautureData} from '../data/data.feauters'
+import {feautureData, propertiesData} from '../data/data.feauters'
 	import Carusel from '../components/Carusel'
 	import Feauters from '../components/Feauters'
+	import Properties from '../components/Properties'
 
   export default{
 		name: 'Home',
 		components: {
 			Carusel,
 			Feauters,
+			Properties,
 		},
 		data() {
 			return {
 				feautureData: feautureData,
+				propertiesData: propertiesData,
 			}
 		},
 	}
