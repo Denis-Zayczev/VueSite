@@ -1,30 +1,57 @@
 <template>
 	<div class="home">
-		<Carusel/>
+		<Carusel />
 		<div class="container home__offering">
 			<div class="row">
-			<div class="col-md-4 home_border">
-				<h3 class="home__offeringTitle">
-					We are Offering the Best Estate Deals
-				</h3>
-			</div>
-			<div class="col-md-8">
-				<p>Quisque diam lorem interdum vitaapibus ac scelerisque vitae pede. Donec eget tellus non erat lacinia fertum. Donec in velit vel ipsum auctovinar. Proin umcorper urna et felisstibulum iaculis lacinia est. Proin dictum elem entum velit fusce euismod. Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura. Lorem ipsum dolor sitamet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.</p>
+				<div class="col-md-4 home_border">
+					<h3 class="home__offeringTitle">We are Offering the Best Estate Deals</h3>
+				</div>
+				<div class="col-md-8">
+					<p>
+						Quisque diam lorem interdum vitaapibus ac scelerisque vitae pede. Donec eget tellus non erat lacinia fertum.
+						Donec in velit vel ipsum auctovinar. Proin umcorper urna et felisstibulum iaculis lacinia est. Proin dictum
+						elem entum velit fusce euismod. Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet,
+						consec tetuer adipis elit, aliquam eget nibh etlibura. Lorem ipsum dolor sitamet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
+					</p>
+				</div>
 			</div>
 		</div>
+		<Feauters :data="featureData" />
+
+		<div class="properties">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<h2 class="properties__h2">
+							Featured
+							<b>Properties</b>
+						</h2>
+					</div>
+					<div class="col-md-12 col-sm-12">
+						<p class="properties__subtitle">
+							Quisque diam lorem interdum vitaapibus vitae pede. Donec eget tellus non erat lacinia fertum. Donec in
+							velit vel ipsum auctovinar.
+						</p>
+					</div>
+				</div>
+
+				<Properties :propertiesData="propertiesData" />
+				
+			</div>
 		</div>
-		<Feauters :data="feautureData"/>
-		<Properties :propertiesData="propertiesData"/>
 	</div>
 </template>
 
 <script>
-import {feautureData, propertiesData} from '../data/data.feauters'
+	import { featureData, propertiesData } from '../data/data.dummy'
+
+	// @ is an alias to /src
 	import Carusel from '../components/Carusel'
 	import Feauters from '../components/Feauters'
 	import Properties from '../components/Properties'
 
-  export default{
+	export default {
 		name: 'Home',
 		components: {
 			Carusel,
@@ -33,7 +60,7 @@ import {feautureData, propertiesData} from '../data/data.feauters'
 		},
 		data() {
 			return {
-				feautureData: feautureData,
+				featureData: featureData,
 				propertiesData: propertiesData,
 			}
 		},

@@ -1,5 +1,5 @@
 <template>
-  <div>
-    property
-  </div>
+	<div>
+		property
+	</div>
 </template>
