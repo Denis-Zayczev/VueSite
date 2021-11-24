@@ -40,6 +40,10 @@
 				
 			</div>
 		</div>
+
+		<div class="home__slider">
+			<Carusel-picture-content/>
+		</div>
 	</div>
 </template>
 
@@ -50,6 +54,7 @@
 	import Carusel from '../components/Carusel'
 	import Feauters from '../components/Feauters'
 	import Properties from '../components/Properties'
+	import CaruselPictureContent from '../components/CaruselPictureContent'
 
 	export default {
 		name: 'Home',
@@ -57,6 +62,7 @@
 			Carusel,
 			Feauters,
 			Properties,
+			CaruselPictureContent,
 		},
 		data() {
 			return {

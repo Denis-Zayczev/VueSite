@@ -24,4 +24,11 @@
 			background-color: $dark;
 		}
 	}
+
+	&__slider {
+		padding-top: 75px;
+		height: 545px;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
 }
