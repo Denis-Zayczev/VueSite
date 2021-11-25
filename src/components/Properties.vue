@@ -11,7 +11,6 @@
 				<li class="properties__item">{{ property.desc.bath }} Bathroom</li>
 			</ul>
 		</div>
-		<div class="col"><button type="button" class="btn btn-primary properties__more">ALL Properties</button></div>
 	</div>
 </template>
 
