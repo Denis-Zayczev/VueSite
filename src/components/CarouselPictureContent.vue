@@ -19,7 +19,7 @@
 
 
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
+            <div class="carousel-item active" data-bs-interval="10000">
 
               <div class="carousel-picture-content__header">
                 <h3 class="carousel-picture-content__title">

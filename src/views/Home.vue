@@ -36,15 +36,16 @@
 					</div>
 				</div>
 
-				<Properties :propertiesData="propertiesData" />
-
-			
+				<properties :propertiesData="propertiesData" />
 
 			</div>
 		</div>
 
 		<div class="home__slider">
 			<carousel-picture-content/>
+		</div>
+		<div class="home__banner">
+			<banner />
 		</div>
 	</div>
 </template>
@@ -57,6 +58,7 @@
 	import Feauters from '../components/Feauters'
 	import Properties from '../components/Properties'
 	import CarouselPictureContent from '../components/CarouselPictureContent'
+	import Banner from '../components/Banner'
 
 	export default {
 		name: 'Home',
@@ -64,7 +66,8 @@
 			Carusel,
 			Feauters,
 			Properties,
-			CarouselPictureContent
+			CarouselPictureContent,
+			Banner
 		},
 		data() {
 			return {
